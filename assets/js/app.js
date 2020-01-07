@@ -529,6 +529,9 @@ var DECENTTHEMES = DECENTTHEMES || {};
 
   };
 
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
   // Initialize Functions
   $(document).ready(DECENTTHEMES.documentOnReady.init);
   $(window).on('load', DECENTTHEMES.documentOnLoad.init);
