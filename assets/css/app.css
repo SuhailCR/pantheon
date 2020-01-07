@@ -2357,6 +2357,9 @@ a:hover {
   background-size: 35px 35px;
 }
 
+.bimimage {
+  height: 800px;
+}
 /*--------------------------------------------------------------
   ##  Responsive
   --------------------------------------------------------------*/
@@ -2506,6 +2509,10 @@ a:hover {
   /*=========  News Letter  ==========*/
   .news-form input {
     width: 350px;
+  }
+
+  .bimimage {
+    height: 450px;
   }
 }
 
